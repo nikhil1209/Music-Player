@@ -69,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mediaPlayer=new MediaPlayer();
         mediaPlayer=MediaPlayer.create(getApplicationContext(),R.raw.mu);
 
-        img=(ImageView) findViewById(R.id.artistimage);
+//        img=(ImageView) findViewById(R.id.artistimage);
         song=(TextView) findViewById(R.id.songnameid);
         artist=(TextView) findViewById(R.id.artistid);
         skbr=(SeekBar) findViewById(R.id.seekBar);
